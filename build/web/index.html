@@ -4,40 +4,41 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to c
 Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
 -->
 <html>
-    <head>
-        <title>Form Page</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <style>
+<head>
+    <title>Form Page</title>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <style>
             .container{
                 width: 40%;
                 border: 1px solid blue;
                 margin: auto;
             }
-        </style>
-    </head>
-    <body>
-        <div class="container">
-            <h1>My Form</h1>
-            <form action="RegisterServlet" method="post">
-                <table>
-                    <tr>
-                        <td>Enter your name: </td>
-                        <td><input type="text" name="user_name"/></td>
-                    </tr>
-                    <tr>
-                        <td>Enter your email </td>
-                        <td><input type="text" name="user_email"/></td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td>
-                            <button type="submit">Register</button>
-                            <button type="reset">Reset</button>
-                        </td>
-                    </tr>
-                </table>
-            </form>
-        </div>
-    </body>
+
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>My Form</h1>
+    <form action="RegisterServlet" method="post">
+        <table>
+            <tr>
+                <td>Enter your name:</td>
+                <td><input name="user_name" type="text"/></td>
+            </tr>
+            <tr>
+                <td>Enter your email</td>
+                <td><input name="user_email" type="text"/></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <button type="submit">Register</button>
+                    <button type="reset">Reset</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+</div>
+</body>
 </html>
